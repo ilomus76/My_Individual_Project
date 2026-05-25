@@ -1,0 +1,30 @@
+/* 요소 명으로 스타일 적용대상을 선택 -h1번 요소 찾아 */
+h1{color: blue;}
+p{color: aqua;}
+
+/*아이디 명으로 스타일 적용대상을 선택*/
+#p1{background-color: bisque;}
+
+
+/* 클래스 명으로 스타일 적용대상을 선택 */
+.mbca{font-style: italic;}
+
+/* 이미지 크기 지정 (단위:px)  */
+img{width: 150px;}
+/* 요소 명으로 스타일 적용대상을 선택 - h1번 요소 찾아*/
+/* h1{color: blue;} */
+/* p{color:red;} */
+
+/* ctrl / 하면 자동으로 주석이 만들어 짐 */
+/*아이디 명으로 스타일 적용대상을 선택*/
+/* #p1{background-color: yellow;} */
+
+/* 클래스 명으로 스타일 적용대상을 선택 */
+/* .mbca{font-style: italic;} */
+
+/* 이미지 크기 지정 (단위:px)  */
+/* img{width: 150px;} */
+
+/*  */
+
+

@@ -1,0 +1,27 @@
+# external module 
+from urllib import request  # urllib is the standerd built in module or library which is offered by python.
+#s = "https://raw.githubusercontent.com/2017mrhi/python_network_files/refs/heads/main/aaa.txt" # https:// 이 단어가 꼭 있어야 한다. 
+s='https://raw.githubusercontent.com/2017mrhi/python_network_files/refs/heads/main/ddd.csv'
+
+url = request.urlopen(s)
+data=url.read()
+print(data)
+# b : binary 
+# b'Hello.\nThis is text file for python request modult test.\n\n\xec\x95\x88\xeb\x85\x95\xed\x95\x98\xec\x84\xb8\xec\x9a\x94.\n\xed\x95\x9c\xea\xb8\x80\xeb\x8f\x84 \xed\x99\x95\xec\x9d\xb8\xed\x95\xb4 \xeb\xb4\x85\xeb\x8b\x88\xeb\x8b\xa4.'
+print(data.decode('UTF-8'))
+print(type(data)) #<class 'bytes'>
+
+data = data.decode('UTF-8')
+print(type(data)) #<class 'str'>
+
+lines = data.split('\n')
+print('분리된 줄수:',len(lines))
+
+for i in range(len(lines)):
+     lines[i]=lines[i].split(',') 
+
+name, age, major, address = lines[0]
+
+print('이름:',name,'나이:',age,'전공:',major,'주소:',address)
+
+

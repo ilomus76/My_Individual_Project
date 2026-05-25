@@ -1,0 +1,10 @@
+/* 요소 명으로 스타일 적용대상을 선택 - h1번 요소 찾아*/
+h1{color: thistle;}
+p{color:cadetblue}
+#my_plan_2026_5{background-color: lightgrey;}
+.my_plan{font-style: italic;}
+ol{color: blue; font-style: italic;}
+dt{color: coral; font-style: oblique;}
+#img_html{width: 30px;}
+#img_github{width: 30px;}
+#img_git_bash{width: 30px;}

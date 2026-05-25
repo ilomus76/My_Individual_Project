@@ -1,0 +1,1 @@
+message = "EDA(Exploratory Data Analysis) : 탐색적 데이터 분석. data를 다양한 각도에서 관찰하고 이해하는 첫번째 단계. 시각화와 통계적 기법을 사용하여 Data 를 분석합니다."
